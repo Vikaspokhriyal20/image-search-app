@@ -1,0 +1,152 @@
+
+
+/* image website css */
+
+body
+{
+  font-family: 'mandali';
+  background-image: radial-gradient( circle , #e78de7,#b5e2f7);
+}
+
+.before-img
+{
+  border:1px solid red;
+  padding: 5px;
+}
+
+
+
+.heading
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-box
+{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+  .flex-box
+  {
+    flex-direction: column;
+    padding: 20px;
+
+  }
+  
+}
+
+
+.input-area
+{
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  
+}
+
+.input-area::placeholder
+{
+  color: white;
+}
+
+
+.getbtn
+  {
+  margin: 10px;
+  background-image: linear-gradient(to bottom right,#da22ff,#9733ee);
+  padding: 0 20px;
+  display: block;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:600px) {
+  .getbtn
+  {
+   
+    padding: 12px;
+    width: 25%;
+  }
+}
+
+.flex
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top:20px;
+  
+}
+
+
+.flex-item 
+{
+ 
+  margin: 10px;
+  border-radius: 5px;
+
+  /* box-shadow: 2px 4px 4px lightgrey; */
+  /* filter: drop-shadow(2px 2px 2px black); */
+}
+
+.img
+{
+  width: 50%;
+  transition: filter  0.3s;
+}
+
+@media screen and (max-width:600px) {
+  .img{
+      width:100%;
+     margin: 0 20px0 20;
+  }
+}
+.img:hover
+{
+  filter: drop-shadow(4px 4px 4px hotpink);
+}
+
+.img-about
+{
+  
+  text-align:center;
+  font-size: 14px;
+
+ 
+}
+
+.likes
+{
+  color:black;
+
+}
+.username
+{
+  color: black;
+ 
+}
+
+
+
+
+
