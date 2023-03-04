@@ -28,7 +28,7 @@ const Image = () => {
             <div className='flex-box'>
                 <input type='search' className="input-area" placeholder='Search Image ' value={photo} onChange={(e) => setPhoto(e.target.value)} />
                 <select className="input-area" onChange={(e) => setpageno(e.target.value)} >
-                    <option disabled>select page no</option>
+                    <option>select page no</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
